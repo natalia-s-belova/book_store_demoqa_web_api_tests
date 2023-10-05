@@ -63,4 +63,5 @@ class LoginPage:
 
     def open_login_in_left_panel(self):
         with allure.step('Click Login on the Left Panel'):
-            browser.all('.menu-list .text').element_by(have.exact_text('Login')).click()
+            browser.all('.menu-list .text').element_by(have.exact_text('Login')).perform(
+                command.js.scroll_into_view).click()
