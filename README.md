@@ -1,6 +1,8 @@
 ## Training project with Web and API autotests for [BookStore DemoQa](https://demoqa.com/books) service
 
+<div align="center">
 <img src="readme_images/logo.png" height="100"/>&nbsp;
+</div>
 
 ### Tools and technologies used
 <p>
