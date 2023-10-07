@@ -60,7 +60,7 @@ In Allure Test Ops is also an additional ability to configure test scope by choo
 
 Reporting is implemented using Allure services.
 
-Allure Report can be opened on Jenkins page (see screenshot above) and contains graphics, detalization of test executions, different kinds of attachments (screenshots, logs, video, html code).
+[Allure Report](https://jenkins.autotests.cloud/job/C06-natalya_s_belova_bookstore_web_api_main/allure/) can be opened on Jenkins page (see screenshot above) and contains graphics, detalization of test executions, different kinds of attachments (screenshots, logs, video, html code).
 <img src="readme_images/bookstore_allure_1.png"/>&nbsp;
 <img src="readme_images/bookstore_allure_2.png"/>&nbsp;
 
@@ -82,7 +82,3 @@ As soon as Test Launch is completed, telegram message with the following informa
 <img src="readme_images/bookstore_telegram.png" height="300"/>&nbsp;
 
 In order for such messages to be sent, [notifications library](https://github.com/qa-guru/allure-notifications) was used, telegram bot was created and added to a specific telegram group.
-
-### Configuration information
-
-TBD
