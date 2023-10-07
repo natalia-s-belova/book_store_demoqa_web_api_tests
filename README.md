@@ -44,13 +44,13 @@ Example of API request's test:
 <img src="readme_images/bookstore_api_test.png" height="400"/>&nbsp;
 
 ### Test Launch
-Tests are launching using Jenkins service.
+Tests are launching using **Jenkins service**.
 To run tests, open the [configured job](https://jenkins.autotests.cloud/job/C06-natalya_s_belova_bookstore_web_api_main/), click 'Build with parameters', select browser + version (for example, firefox 98.0) and tests directory (web/api tests can be launched in the same run or separately), click 'Build'.
 
 <img src="readme_images/bookstore_jenkins_1.png"/>&nbsp;
 <img src="readme_images/bookstore_jenkins_2.png"/>&nbsp;
 
-Also, since the integration with Allure Test Ops is implemented, it is possible to run tests with this service. 
+Also, since the integration with **Allure Test Ops** is implemented, it is possible to run tests with this service. 
 In Allure Test Ops is also an additional ability to configure test scope by choosing specific test cases.
 
 <img src="readme_images/bookstore_testops_jobs.png"/>&nbsp;
@@ -58,13 +58,13 @@ In Allure Test Ops is also an additional ability to configure test scope by choo
 
 ### Test Report and Test Documentation
 
-Reporting is implemented using Allure services.
+Reporting is implemented using **Allure services**.
 
-[Allure Report](https://jenkins.autotests.cloud/job/C06-natalya_s_belova_bookstore_web_api_main/allure/) can be opened on Jenkins page (see screenshot above) and contains graphics, detalization of test executions, different kinds of attachments (screenshots, logs, video, html code).
+[Allure Report](https://jenkins.autotests.cloud/job/C06-natalya_s_belova_bookstore_web_api_main/allure/) can be opened on Jenkins page (see Jenkins screenshot in the section above) and contains graphics, detalization of test executions, different kinds of attachments (screenshots, logs, video, html code).
 <img src="readme_images/bookstore_allure_1.png"/>&nbsp;
 <img src="readme_images/bookstore_allure_2.png"/>&nbsp;
 
-Allure Test Ops also contains such information and in addition it has generated Test Documentation that can be imported to Jira.
+**Allure Test Ops** also contains such information and in addition it has generated Test Documentation that can be imported to Jira.
 <img src="readme_images/bookstore_testops_dashboard.png"/>&nbsp;
 <img src="readme_images/bookstore_testops_tc.png"/>&nbsp;
 
