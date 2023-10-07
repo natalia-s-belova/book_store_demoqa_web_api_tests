@@ -22,8 +22,8 @@
 ### Test coverage
 UI-tests (web application):
 * User's authorization
-* Bookstore: search, navigation, book's details, adding book to user's collection
-* Profile: View, navigation, search, removing book(s) from collection
+* Bookstore: search, navigate, view book details, add book to user's collection
+* Profile: View, navigate, search, remove book(s) from the collection
 
 API-tests:
 * Account creation/deletion
@@ -81,4 +81,4 @@ As soon as Test Launch is completed, telegram message with the following informa
 
 <img src="readme_images/bookstore_telegram.png" height="300"/>&nbsp;
 
-In order for such messages to be sent, [notifications library](https://github.com/qa-guru/allure-notifications) was used, telegram bot was created and added to a specific telegram group.
+For such messages to be sent, [notifications library](https://github.com/qa-guru/allure-notifications) was used, telegram bot was created and added to a specific telegram group.
